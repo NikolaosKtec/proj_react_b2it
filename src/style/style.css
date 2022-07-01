@@ -1,0 +1,42 @@
+
+*.Flex.rgbaB{
+    display: flex;
+    background-color: rgba(3, 42, 255, 0.48);
+}
+*.FlexCmid{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+*.borderI{
+    border: 2px solid rgba(3, 42, 255, 0.48);
+}
+img.imgSmall{
+    border-radius: 22px;
+    max-width: 100px;
+}
+div p {
+    display: inline;
+    margin-left: 20px;
+}
+*.ma{
+    margin: auto;
+}
+
+*.pp{
+    max-width: 100px;
+}
+nav.nav_header{
+    display: inline;
+}
+nav.nav_header a{
+    display: inherit;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+}
