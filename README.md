@@ -1,4 +1,4 @@
-#Como baixar e rodar o projeto?
+<h1>#Como baixar e rodar o projeto?</h1>
 #1. em seu terminal no gitHub>>: git clone https://github.com/NikolaosKtec/proj_react_b2it
 
 #2. depois abra o arquivo, a pasta que contém o projeto
