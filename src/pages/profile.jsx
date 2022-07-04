@@ -20,17 +20,26 @@ function Profile(){
         })
   }
     return(
-        <div className="FlexCmid borderI" onLoad={loadHandler()}>
+        <section className="Flex TemplII" onLoad={loadHandler()}>
           
           <figcaption className="ma">profile picture</figcaption>
-          <img className="imgSmall ma" src={data.avatar.image_high_url}/>
-          <div><p>your name: {data.name}</p>
-            <p>{data.last_name}</p> 
-            </div>
-           
-            <p>your email: {data.email}</p> 
-            <p>{data.last_login}</p>
-      </div>
+            <img className="imgSmall ma" src={data.avatar.image_high_url}/>
+          <div>
+            <span className="text">your name:</span>
+            <span>{data.name+' '}
+            {data.last_name}</span> 
+          </div>
+           <div>
+            <span className="text">your email:</span> 
+              <span> {data.email}</span>
+           </div>
+            
+            <span style={{display:'none'}}>{data.last_login}</span>
+            <button onClick={(e)=>{
+              localStorage.clear()
+              window.location.href = "/login"
+            }}> logOut</button>
+      </section>
     )
 }
 

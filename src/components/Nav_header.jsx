@@ -1,12 +1,12 @@
 //import react from "react"
-import {ImgPP} from "./ImgLogo"
+import {ImgLogo_pp} from "./ImgLogo"
 import "./../style/style.css"
 
 function Nav_header(){
 
     return(
-    <header className="Flex rgbaB">
-        <ImgPP/>
+    <header className="FlexI">
+       <ImgLogo_pp/>
         <nav className="nav_header">
             <a href="/">home</a>
             <a href="/login">Login</a>
